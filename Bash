@@ -1,0 +1,11 @@
+1. Install pkg - 
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+2. Add-Migration InitialCreate
+
+3. Update-Database
+
+4. Remove Last Migration (if needed)
+Remove-Migration
